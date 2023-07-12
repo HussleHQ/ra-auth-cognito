@@ -3,6 +3,7 @@
     "private": true,
     "author": "Gildas Garcia <gildas@marmelab.com> (https://marmelab.com/)",
     "license": "MIT",
+    "version": "1.0.2",
     "devDependencies": {
         "@babel/preset-env": "^7.15.0",
         "@babel/preset-react": "^7.14.5",
