@@ -1704,6 +1704,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@husslehq/ra-auth-cognito@workspace:packages/ra-auth-cognito":
+  version: 0.0.0-use.local
+  resolution: "@husslehq/ra-auth-cognito@workspace:packages/ra-auth-cognito"
+  dependencies:
+    "@types/jest": ^29.1.0
+    jest: ^29.1.1
+    jest-environment-jsdom: ^29.1.1
+    react: ^18.2.0
+    react-admin: ^4.7.0
+    react-dom: ^18.2.0
+    rimraf: ^3.0.2
+    ts-jest: ^29.0.3
+    typescript: ^4.8.4
+  peerDependencies:
+    amazon-cognito-identity-js: ^6.1.2
+    ra-core: ^4.7.0
+    react: ^16.9.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0
+  languageName: unknown
+  linkType: soft
+
 "@istanbuljs/load-nyc-config@npm:^1.0.0":
   version: 1.1.0
   resolution: "@istanbuljs/load-nyc-config@npm:1.1.0"
@@ -8773,26 +8794,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"ra-auth-cognito@*, ra-auth-cognito@workspace:packages/ra-auth-cognito":
-  version: 0.0.0-use.local
-  resolution: "ra-auth-cognito@workspace:packages/ra-auth-cognito"
+"ra-auth-cognito@npm:*":
+  version: 1.0.1
+  resolution: "ra-auth-cognito@npm:1.0.1"
   dependencies:
-    "@types/jest": ^29.1.0
-    jest: ^29.1.1
-    jest-environment-jsdom: ^29.1.1
-    react: ^18.2.0
     react-admin: ^4.7.0
-    react-dom: ^18.2.0
-    rimraf: ^3.0.2
-    ts-jest: ^29.0.3
-    typescript: ^4.8.4
   peerDependencies:
     amazon-cognito-identity-js: ^6.1.2
     ra-core: ^4.7.0
     react: ^16.9.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0
-  languageName: unknown
-  linkType: soft
+  checksum: d56287bdea9ed24bd8146b7bec2da94aa13bc429b9bd358968bec8b663bee1d833a4884fc18dbd69334289837751cff29f7252a48c93fbf3a8b96d13c479d80b
+  languageName: node
+  linkType: hard
 
 "ra-core@npm:^4.7.0":
   version: 4.7.0
